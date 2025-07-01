@@ -25,48 +25,63 @@ Este projeto é uma **API REST** para gerenciar clientes. Ele permite criar, lis
 
 ## 📂 Estrutura do Projeto
 
+```
 .
-├── index.js # Arquivo principal com as rotas
-├── db.js # Módulo para conexão e queries no MySQL
-├── package.json
-
+├── index.js      # Arquivo principal com as rotas
+├── db.js         # Módulo para conexão e queries no MySQL
+└── package.json
+```
 
 ---
 
 ## 📌 Variáveis de ambiente
 
-PORT=3000
+Exemplo de `.env`:
 
+```
+PORT=3000
 CONNECTION_STRING=mysql://root:1234@localhost:3306/clientes
+```
 
 ---
 
 ## 🧭 Como rodar o projeto localmente
 
 1️⃣ Clone este repositório:
+
 ```bash
 git clone https://github.com/GuilhermeNeto/Api-Clientes.git
 cd Api-Clientes
+```
 
 2️⃣ Instale as dependências:
 
+```bash
 npm install
+```
 
-3️⃣ Configure o .env com as credenciais do seu banco.
+3️⃣ Configure o arquivo `.env` com as credenciais do seu banco.
 
 4️⃣ Inicie o servidor:
 
+```bash
 npm start
+```
 
 5️⃣ Acesse as rotas via navegador, Insomnia ou Postman:
+
+```
 http://localhost:3000/clientes
+```
 
-## 
+---
 
+## 💡 Observação
 
-💡 Observação
-Projeto desenvolvido para estudo, acompanhando uma vídeo-aula. 
+Projeto desenvolvido para fins de estudo, acompanhando uma vídeo-aula.
 
-## 
-👤 Autor
-Guilherme Neto
+---
+
+## 👤 Autor
+
+**Guilherme Neto**
