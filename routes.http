@@ -1,0 +1,36 @@
+GET http://localhost:3000/clientes
+
+###
+
+POST   http://localhost:3000/clientes
+Content-Type: application/json
+
+{
+    "nome": "Guilherme Neto",
+    "email": "guilherme.costa@email.com",
+    "telefone": "(11) 93333-9753",
+    "endereco": "SQN 308, Bloco E - Quinto dos infernos, MA"
+}
+### 
+
+PATCH http://localhost:3000/clientes/6
+Content-Type: application/json
+
+{
+    "nome": "Guilherme Neto Porfirio",
+    "email": "guilherme.costa@email.com",
+    "telefone": "(61) 93333-9753",
+    "endereco": "SQN 308, Bloco E - Brasília, DF"
+}
+
+###
+
+DELETE http://localhost:3000/clientes/6
+Content-Type: application/json
+
+{
+    "nome": "Guilherme Neto Porfirio",
+    "email": "guilherme.costa@email.com",
+    "telefone": "(61) 93333-9753",
+    "endereco": "SQN 308, Bloco E - Brasília, DF"
+}
