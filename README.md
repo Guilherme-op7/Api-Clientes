@@ -39,7 +39,6 @@ PORT=3000
 
 CONNECTION_STRING=mysql://root:1234@localhost:3306/clientes
 
-
 ---
 
 ## 🧭 Como rodar o projeto localmente
@@ -62,10 +61,12 @@ npm start
 5️⃣ Acesse as rotas via navegador, Insomnia ou Postman:
 http://localhost:3000/clientes
 
----
+## 
+
 
 💡 Observação
 Projeto desenvolvido para estudo, acompanhando uma vídeo-aula. 
 
+## 
 👤 Autor
 Guilherme Neto
